@@ -17,7 +17,7 @@ describe('(Store) createStore', () => {
   describe('(Location)', () => {
     it('store should be initialized with Location state', () => {
       const location = {
-        pathname : '/echofdsf'
+        pathname : '/echo'
       }
       store.dispatch({
         type    : 'LOCATION_CHANGE',
